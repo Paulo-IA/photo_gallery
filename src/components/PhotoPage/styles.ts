@@ -11,17 +11,26 @@ export const PhotoTitle = styled.div`
     justify-content: center;
     margin: -10px 0 30px;
     font-size: 25px;
+    
+    @media (max-width: 800px) {
+        margin: 10px 0 30px;
+        padding-left: 25px;
+    }
 `;
 
 export const PhotoContainer = styled.div`
-    width: 50%;
-    margin: auto auto 50px auto;
+    width: 100%;
+    margin: auto;
     display: flex;
     justify-content: center;
-    padding: 25px;
-    border: 1px solid #ccc;
+    margin-bottom: 50px;
 `;
 
 export const Photo = styled.img`
+    padding: 25px;
+    border: 1px solid #ccc;
 
+    @media (max-width: 720px) {
+        width: 90%;
+    }
 `;

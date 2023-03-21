@@ -17,9 +17,14 @@ export const Container = styled.div`
     &:hover {
         box-shadow: 0 0 10px greenyellow;
     }
+
+    &:last-child {
+        margin-bottom: 50px;
+    }
 `;
 
 export const Photo = styled.img`
+    
 `;
 
 export const PhotoTitle = styled.div`
